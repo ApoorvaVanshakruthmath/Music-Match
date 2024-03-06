@@ -1,0 +1,27 @@
+/* Header.css */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  position: relative;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom: 1px solid #c8c8c8cf;
+  border-left: 1px solid #c8c8c8cf;
+  border-right: 1px solid #c8c8c8cf;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+span {
+  font-family: "Indie Flower", cursive;
+  margin-left: 10px;
+}

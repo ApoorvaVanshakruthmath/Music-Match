@@ -1,0 +1,79 @@
+/* ProfileComponent.css */
+
+/* Container styling */
+.profile-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  /* background-color: #282828;
+   */
+  background: linear-gradient(to bottom, #0b5833, #000000);
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+/* Profile photo styling */
+.profile-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.default-photo {
+  width: 100%;
+  height: 100%;
+  background-color: #555; /* Default color for no photo */
+}
+
+/* Profile details styling */
+.profile-details {
+  flex-grow: 1;
+}
+
+/* Heading styling */
+.proh {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Label and input styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  background-color: #121212;
+  color: #fff;
+  border: 1px solid #282828;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+.probtn {
+  background-color: #5a5a5a;
+  color: #fff;
+  padding: 10px 15px;
+  border: 1.5px solid white;
+  border-radius: 34px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.probtn:hover {
+  background-color: #7e8280;
+}

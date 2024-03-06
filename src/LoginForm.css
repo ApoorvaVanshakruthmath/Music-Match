@@ -1,0 +1,47 @@
+/* LoginForm.css (or you can include this directly in your component) */
+.container {
+  background-color: rgba(116, 141, 93, 0.8); /* Transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
+  width: 300px;
+  margin: 0 auto;
+  backdrop-filter: blur(8px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.log {
+  padding: 10px;
+  width: 129px;
+  background-color: #5a5a5a; /* Spotify green color */
+  color: #fff;
+  font-size: 16px;
+  border: 1.5px solid white;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.log:hover {
+  background-color: #7e8280; /* Darker green on hover */
+}
